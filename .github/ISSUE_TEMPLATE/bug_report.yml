@@ -1,0 +1,71 @@
+name: Bug report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please fill in as much as you can.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the app
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Program version
+      description: You can find this at the bottom of the Settings page.
+      placeholder: "e.g. 1.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: persist-app-restart
+    attributes:
+      label: Does the issue persist after restarting the app?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
+    id: persist-pc-restart
+    attributes:
+      label: Does the issue persist after restarting your PC?
+      options:
+        - "Yes"
+        - "No"
+        - "Haven't tried"
+    validations:
+      required: true
+  - type: dropdown
+    id: other-users
+    attributes:
+      label: Do other users have the same issue?
+      description: Optional — let us know if you've seen or heard of others experiencing this.
+      options:
+        - "Yes"
+        - "No"
+        - "Not sure"
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and didn't find a duplicate
+          required: true
