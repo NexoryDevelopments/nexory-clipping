@@ -1,53 +1,52 @@
 # Nexory Clipping
 
-A lightweight, low-overhead screen capture and instant replay utility for Windows, built in Rust.
+A lightweight screen capture and instant replay utility for Windows, built in Rust.
 
-Nexory Clipping sits quietly in your system tray using near-zero CPU and minimal RAM while you browse or work, automatically waking up to record a rolling 2-minute replay buffer the moment you launch a game.
-
----
+Nexory Clipping sits in your system tray and stays dormant during normal desktop
+use. When you launch a game, it starts a hardware-encoded rolling replay buffer
+of the last 2 minutes.
 
 ## Features
 
-* **Smart Instant Replay (Past 2 Minutes):** Automatically detects when you're playing a game and spins up a hardware-encoded rolling buffer—staying completely dormant during normal desktop use.
-* **Region Snipping Tool:** Quickly drag and capture any area of your screen to your clipboard or disk.
-* **Instant Screenshots:** Capture full-screen or active window screenshots with a single hotkey.
-* **Screen Recording:** Start and stop manual, full-session recordings on demand.
-* **Built in Rust:** Native Windows performance with a tiny memory footprint and negligible idle resource usage.
+- **Instant replay (past 2 minutes):** detects when you're playing a game and
+  records a rolling buffer. It stays dormant on the desktop.
+- **Region snip:** drag to capture any area to your clipboard or disk.
+- **Instant screenshots:** full screen or active window with one hotkey.
+- **Screen recording:** start and stop full-session recordings on demand.
+- **Optional cloud upload:** share a clip manually to your own storage
+  (Fivemanage, Cloudflare R2, S3-compatible, or a custom HTTP endpoint).
+  Nothing is uploaded unless you choose a clip and press upload. Your
+  credentials are stored locally on your PC.
 
----
+## Download
 
-## Installation
+[**Download the latest release**](../../releases/latest)
 
-1. Download the setup `.exe` directly from this repository (click the file and hit **Download raw file**, or grab it from **[Releases](https://github.com/[your-username]/[repo-name]/releases)**).
-2. Run the setup `.exe` to install [App Name].
-3. Once installed, it runs quietly in your system tray.
+Run the setup `.exe`. The app then runs in your system tray.
 
-*(Note: Because this is an independent, unsigned installer, Windows SmartScreen may show a prompt on first launch. Click **More info** → **Run anyway** to proceed.)*
+> The installer is unsigned, so Windows SmartScreen may show a prompt on first
+> launch. Click **More info → Run anyway**.
 
----
+[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.svg#gh-light-mode-only)](https://slint.dev)
+[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.svg#gh-dark-mode-only)](https://slint.dev)
 
-## Default Hotkeys
+<sub>The installer is made with [Slint](https://slint.dev).</sub>
+
+## Default hotkeys
 
 | Action | Shortcut |
-| :--- | :--- |
-| **Save Instant Replay (Past 2 Min)** | `Alt + F10` *(update to your defaults)* |
-| **Region Snip** | `Alt + Shift + S` |
-| **Screenshot** | `Alt + F12` |
-| **Toggle Screen Recording** | `Alt + F9` |
+| --- | --- |
+| Save instant replay (past 2 min) | Alt + F10 |
+| Region snip | Alt + Shift + S |
+| Screenshot | Alt + F12 |
+| Toggle screen recording | Alt + F9 |
 
----
+## Feedback & bug reports
 
-## Feedback & Bug Reports
-
-Have a suggestion, found a bug, or have a game that isn't being detected properly? Open an issue in the **[Issues](https://github.com/[your-username]/[repo-name]/issues)** tab.
-
-
-
----
+Found a bug, have a suggestion, or a game that isn't detected properly?
+Open an issue in the Issues tab.
 
 ## License
 
-Nexory Clipping is freeware. See the [LICENSE](LICENSE) file for full terms.****
-
-<sub>The installer is made with [Slint](https://slint.dev).
-[![Made with Slint](logo/MadeWithSlint-logo-whitebg.png)](https://slint.dev)
+Nexory Clipping is freeware. See [LICENSE](LICENSE) for the full terms.
+Third-party notices are in [THIRD-PARTY-LICENSES](THIRD-PARTY-LICENSES).
