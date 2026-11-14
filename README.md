@@ -45,5 +45,4 @@ Open an issue in the Issues tab.
 
 ## License
 
-Nexory Clipping is freeware. See [LICENSE](LICENSE) for the full terms.
-Third-party notices are in [THIRD-PARTY-LICENSES](THIRD-PARTY-LICENSES).
+Nexory Clipping is freeware. See [LICENSE](https://github.com/NexoryDevelopments/nexory-clipping/blob/main/license) for the full terms.
