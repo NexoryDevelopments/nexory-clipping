@@ -28,7 +28,6 @@ Run the setup `.exe`. The app then runs in your system tray.
 > launch. Click **More info → Run anyway**.
 
 [![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.svg#gh-light-mode-only)](https://slint.dev)
-[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.svg#gh-dark-mode-only)](https://slint.dev)
 
 <sub>The installer is made with [Slint](https://slint.dev).</sub>
 
