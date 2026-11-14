@@ -29,8 +29,6 @@ Run the setup `.exe`. The app then runs in your system tray.
 
 [![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.svg#gh-light-mode-only)](https://slint.dev)
 
-<sub>The installer is made with [Slint](https://slint.dev).</sub>
-
 ## Default hotkeys
 
 | Action | Shortcut |
