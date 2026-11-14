@@ -25,7 +25,7 @@ Run the setup `.exe`. The app starts in your system tray.
 The installer is unsigned, so Windows SmartScreen may warn you on first launch.
 Click **More info → Run anyway**.
 
-[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.svg#gh-dark-mode-only)](https://slint.dev)
+[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.svg#gh-light-mode-only)](https://slint.dev)
 
 ## Default hotkeys
 
