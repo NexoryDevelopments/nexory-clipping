@@ -41,8 +41,13 @@ Nexory Clipping sits quietly in your system tray using near-zero CPU and minimal
 
 Have a suggestion, found a bug, or have a game that isn't being detected properly? Open an issue in the **[Issues](https://github.com/[your-username]/[repo-name]/issues)** tab.
 
+
+
 ---
 
 ## License
 
 Nexory Clipping is freeware. See the [LICENSE](LICENSE) file for full terms.****
+
+<sub>The installer is made with [Slint](https://slint.dev).
+[![Made with Slint](logo/MadeWithSlint-logo-whitebg.png)](https://slint.dev)
