@@ -17,8 +17,8 @@ tools that run in the background tend to get flagged more often.
 
 The app is not code-signed at the moment. Code signing certificates cost money,
 so I'll sign it once enough people use the app to make that cost worth it.
-Until then, Windows may show an "unknown publisher" warning. As a free
-alternative, I may publish it on the Microsoft Store to get the MSIX certificate.
+Until then, Windows may show an "unknown publisher" warning. As a free alternative, I may publish it on the Microsoft Store, where Microsoft
+signs the package. The installer on this page would stay unsigned.
 
 ## Features
 
