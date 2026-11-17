@@ -10,10 +10,9 @@ tools that run in the background tend to get flagged more often.
 
 ## Code signing
 
-The app is not code-signed at the moment. Code signing certificates cost money,
-so I'll sign it once enough people use the app to make that cost worth it.
-Until then, Windows may show an "unknown publisher" warning. As a free alternative, I may publish it on the Microsoft Store, where Microsoft
-signs the package. The installer on this page would stay unsigned.
+The app is currently unsigned. I'm a student living on a fixed income of €125/month, so a recurring code-signing subscription (~€10/month) isn't in my budget right now. Once enough people use the app or if anyone who really enjoys the program wants to chip in with a small donation to help cover the cost. I plan to get it properly signed in the future.
+
+Until then, Windows SmartScreen will show an "Unknown publisher" warning when you run the installer—click **More info → Run anyway** to proceed. You can verify the installer against the SHA-256 hash listed in each release.
 
 ## Features
 
