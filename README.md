@@ -48,6 +48,10 @@ No account and no telemetry. The app only uses the network to update the detecta
 
 These defaults were picked to avoid clashing with common overlays and other apps, but another program on your PC may still use the same keys. If a hotkey doesn't work or triggers something else, change it under **Settings → Shortcuts**.
 
+## Translations
+
+If your language is missing, feel free to fork and submit a translation at [NexoryDevelopments/nexory-translations](https://github.com/NexoryDevelopments/nexory-translations).
+
 ## Support
 
 Nexory Clipping is free. If you want to support development or help cover code-signing costs, you can do so on [Ko-fi](https://ko-fi.com/YOUR_NAME).
