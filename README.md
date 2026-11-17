@@ -5,8 +5,10 @@ A small screen capture and instant replay tool for Windows, written in Rust.
 It lives in your system tray and stays idle on the desktop. When you launch a
 game, it starts a hardware-encoded replay buffer of the last 2 minutes by default.
 
-https://www.virustotal.com/gui/file/dd8195a0b96871e05f98802c90d745f2b91c1a9d40071ec20d9d52c8eef44706/detection
-https://www.virustotal.com/gui/file/913ffcabe7778f4dd904b68c114047fbf04551ad174b2f5313abfe60650d7d48?nocache=1
+https://www.virustotal.com/gui/file/dd8195a0b96871e05f98802c90d745f2b91c1a9d40071ec20d9d52c8eef44706/detection - Setup
+https://www.virustotal.com/gui/file/913ffcabe7778f4dd904b68c114047fbf04551ad174b2f5313abfe60650d7d48?nocache=1 - Main app
+
+Detected because it is an unknown and unsigned new app. I will sign the app if I start getting a userbase. Alternatively using Microsoft Store as a workaround for free signing of my app.
 
 ## Features
 
