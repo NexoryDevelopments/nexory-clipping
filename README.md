@@ -1,14 +1,24 @@
 # Nexory Clipping
 
-A small screen capture and instant replay tool for Windows, written in Rust.
+## Antivirus detections
 
-It lives in your system tray and stays idle on the desktop. When you launch a
-game, it starts a hardware-encoded replay buffer of the last 2 minutes by default.
+Some engines flag Nexory Clipping with generic machine-learning detections:
 
-https://www.virustotal.com/gui/file/dd8195a0b96871e05f98802c90d745f2b91c1a9d40071ec20d9d52c8eef44706/detection - Setup
-https://www.virustotal.com/gui/file/913ffcabe7778f4dd904b68c114047fbf04551ad174b2f5313abfe60650d7d48?nocache=1 - Main app
+| File | Detections | Scan |
+|------|-----------|------|
+| Setup | 3/71 (DeepInstinct, SecureAge, Trapmine) | [VirusTotal](https://www.virustotal.com/gui/file/dd8195a0b96871e05f98802c90d745f2b91c1a9d40071ec20d9d52c8eef44706/detection) |
+| Main app | 1/71 ([ENGINE NAME]) | [VirusTotal](https://www.virustotal.com/gui/file/913ffcabe7778f4dd904b68c114047fbf04551ad174b2f5313abfe60650d7d48?nocache=1) |
 
-Detected because it is an unknown and unsigned new app. I will sign the app if I start getting a userbase. Alternatively using Microsoft Store as a workaround for free signing of my app.
+None of them name a specific malware family, and every bundled DLL and script
+scans clean. This is common for new, unsigned installers, and screen capture
+tools that run in the background tend to get flagged more often.
+
+## Code signing
+
+The app is not code-signed at the moment. Code signing certificates cost money,
+so I'll sign it once enough people use the app to make that cost worth it.
+Until then, Windows may show an "unknown publisher" warning. As a free
+alternative, I may publish it on the Microsoft Store.
 
 ## Features
 
@@ -21,6 +31,12 @@ Detected because it is an unknown and unsigned new app. I will sign the app if I
   endpoints. Uploads only happen when you pick a clip and press upload.
   Your credentials stay on your PC.
 
+## Privacy
+
+No account and no telemetry. The app only uses the network to update the
+detectable-games list (cached locally), for an optional version check on
+launch, and for uploads you start yourself.
+
 ## Download
 
 [**Download the latest release**](https://github.com/NexoryDevelopments/nexory-clipping/releases/latest)
@@ -30,8 +46,6 @@ Run the setup `.exe`. The app starts in your system tray.
 The installer is unsigned, so Windows SmartScreen may warn you on first launch.
 Click **More info → Run anyway**.
 
-[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.svg#gh-light-mode-only)](https://slint.dev)
-
 ## Default hotkeys
 
 | Action | Shortcut |
@@ -40,6 +54,10 @@ Click **More info → Run anyway**.
 | Region snip | Alt + Shift + S |
 | Screenshot | Alt + F12 |
 | Toggle screen recording | Alt + F9 |
+
+These defaults were picked to avoid clashing with common overlays and other
+apps, but another program on your PC may still use the same keys. If a hotkey
+doesn't work or triggers something else, change it under **Settings → Shortcuts**.
 
 ## Support
 
