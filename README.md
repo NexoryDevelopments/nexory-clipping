@@ -2,12 +2,7 @@
 
 ## Antivirus detections
 
-Some engines flag Nexory Clipping with generic machine-learning detections:
-
-| File | Detections | Scan |
-|------|-----------|------|
-| Setup | 3/71 (DeepInstinct, SecureAge, Trapmine) | [VirusTotal](https://www.virustotal.com/gui/file/dd8195a0b96871e05f98802c90d745f2b91c1a9d40071ec20d9d52c8eef44706/detection) |
-| Main app | 1/71 ([ENGINE NAME]) | [VirusTotal](https://www.virustotal.com/gui/file/913ffcabe7778f4dd904b68c114047fbf04551ad174b2f5313abfe60650d7d48?nocache=1) |
+Some engines flag Nexory Clipping with generic machine-learning detections. Check the releases for more info / links to virustotal.
 
 None of them name a specific malware family, and every bundled DLL and script
 scans clean. This is common for new, unsigned installers, and screen capture
