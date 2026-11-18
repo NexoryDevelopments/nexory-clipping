@@ -2,6 +2,8 @@
 
 A gameplay clipping, screen recording, and screenshot tool for Windows.
 
+https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjYzcmpkZTQ5cWtncHQxbzdlaGNhYXNsaW5vdHIyZzl2a2g4b3Q3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/71ee2MgFZsyFsBejPn/giphy.gif
+
 ## Features
 
 - **Instant replay:** Save the last 2 minutes of gameplay with a hotkey.
