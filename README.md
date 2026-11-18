@@ -56,7 +56,7 @@ If your language is missing, feel free to fork and submit a translation at [Nexo
 
 ## Support
 
-Nexory Clipping is free. If you want to support development or help cover code-signing costs, you can do so on [Ko-fi](https://ko-fi.com/YOUR_NAME).
+Nexory Clipping is free. If you want to support development or help cover code-signing costs, you can do so on [Ko-fi](https://ko-fi.com/nexory).
 
 ## Feedback
 
